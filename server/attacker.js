@@ -28,7 +28,7 @@
 
 import {io} from "socket.io-client";
 
-const SERVER_URL = "http://192.168.160.74:3000"; // Replace with your actual server IP
+const SERVER_URL = "http://192.168.32.233:3000"; // Replace with your actual server IP
 const NUMBER_OF_FAKE_CLIENTS = 100;
 
 const clients = [];

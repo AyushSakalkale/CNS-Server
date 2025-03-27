@@ -256,7 +256,7 @@ import {Line} from "react-chartjs-2";
 import "chart.js/auto";
 
 // Replace <your-server-ip> with your actual server IP or domain
-const socket = io("http://<your-server-ip>:3000");
+const socket = io("http://192.168.32.233:3000");
 
 const ServerStatsChart = () => {
   const [stats, setStats] = useState({
@@ -347,7 +347,7 @@ const ServerStatsChart = () => {
 
   return (
     <div>
-      <h1>Welcome to Ayush's Server Monitor</h1>
+      {/* <h1>Welcome to Ayush's Server Monitor</h1> */}
       {stats.intrusion && (
         <div style={{color: "red", fontSize: "20px"}}>
           <strong>{stats.intrusion}</strong>

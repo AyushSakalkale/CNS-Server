@@ -7,11 +7,11 @@
     <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
   </head>
   <body>
-    <h1>Welcome to Ayush!</h1>
+    <!-- <h1>Welcome to Ayush!</h1> -->
     <p id="activeClients">Active Clients: 0</p>
 
     <script>
-      const socket = io("http://192.168.232.74:3000"); // Replace <server-ip> with your server's IP address
+      const socket = io("http://192.168.32.233:3000"); // Replace <server-ip> with your server's IP address
 
       // Listen for active clients updates
       socket.on("active-clients", (clients) => {
