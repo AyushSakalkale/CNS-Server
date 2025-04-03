@@ -11,7 +11,7 @@
     <p id="activeClients">Active Clients: 0</p>
 
     <script>
-      const socket = io("http://192.168.32.233:3000"); // Replace <server-ip> with your server's IP address
+      const socket = io("http://192.168.0.100:3000"); // Replace <server-ip> with your server's IP address
 
       // Listen for active clients updates
       socket.on("active-clients", (clients) => {
